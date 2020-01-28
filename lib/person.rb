@@ -6,3 +6,10 @@ class Person
     @name 
   end 
   
+  def job=(jobType)
+    @job =  jobType
+  end
+  def job
+    @job
+  end
+end
